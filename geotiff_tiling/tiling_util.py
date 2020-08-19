@@ -155,7 +155,7 @@ class MosiacBuilder():
                 center of an image
         """
 
-        side_len = self.MOSIAC_SIDE_LENGTH
+        side_len = self.MOSIAC_SIDE_LENGTH * 2
 
         center_coords = []
 
