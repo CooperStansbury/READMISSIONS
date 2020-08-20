@@ -1,0 +1,1 @@
+This directory contains source building "quilts" of evenly sized sub-arrays form large geotiff files. Included here is the mapping of individual latitude and longitude coordinates to the center of each quilt "tile." Note that Wayne county is at a different resolution that the other counties, and needed to be handled differently.

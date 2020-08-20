@@ -4,6 +4,9 @@
 *.tiff
 *.png
 
+# we do not committ anything from Armis
+Armis_files/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

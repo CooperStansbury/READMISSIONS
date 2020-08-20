@@ -1,0 +1,1 @@
+This directory contains source for submitting images to Google Vision API.
