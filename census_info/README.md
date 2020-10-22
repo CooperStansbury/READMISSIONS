@@ -1,1 +1,0 @@
-This directory contains source for exploring census data by census tract in SE MI.

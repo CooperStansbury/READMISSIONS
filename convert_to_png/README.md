@@ -1,1 +1,0 @@
-This directory contains source for translating 3-channel np.arrays into color .png images. 

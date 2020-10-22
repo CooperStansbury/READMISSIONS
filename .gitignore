@@ -3,6 +3,7 @@
 *.tif
 *.tiff
 *.png
+*.csv
 
 # we do not committ anything from Armis
 Armis_files/*
