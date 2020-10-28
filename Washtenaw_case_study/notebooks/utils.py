@@ -35,3 +35,8 @@ def build_fig(title="", axis_off=False, size=(5, 5),
     if axis_off:
         plt.axis('off')
     return fig
+
+
+def rand_jitter(arr, factor=.01):
+    stdev = factor * (max(arr) - min(arr))
+    return arr + np.random.randn(len(arr)) * stdev
