@@ -1,0 +1,98 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 TARGET   R-squared:                       0.466
+Model:                            OLS   Adj. R-squared:                 -0.125
+Method:                 Least Squares   F-statistic:                    0.7883
+Date:                Thu, 05 Nov 2020   Prob (F-statistic):              0.799
+Time:                        16:41:05   Log-Likelihood:                 153.87
+No. Observations:                 100   AIC:                            -201.7
+Df Residuals:                      47   BIC:                            -63.66
+Df Model:                          52                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                           0.0262      0.018      1.465      0.150      -0.010       0.062
+Aerial_photography_label        0.0005      0.004      0.133      0.895      -0.007       0.008
+Architecture_label              0.0004      0.003      0.135      0.894      -0.005       0.006
+Arena_label                 -5.575e-14   4.06e-14     -1.374      0.176   -1.37e-13    2.59e-14
+Bedrock_label                -8.78e-15   8.53e-15     -1.030      0.308   -2.59e-14    8.37e-15
+Beige_label                     0.0032      0.004      0.743      0.461      -0.005       0.012
+Bird's-eye_view_label          -0.0057      0.009     -0.648      0.520      -0.023       0.012
+Brick_label                     0.0030      0.009      0.343      0.733      -0.015       0.021
+Bridge_label                -4.431e-15   2.34e-15     -1.892      0.065   -9.14e-15    2.81e-16
+Brown_label                    -0.0006      0.005     -0.121      0.905      -0.010       0.009
+Building_label                  0.0069      0.005      1.354      0.182      -0.003       0.017
+City_label                     -0.0039      0.004     -1.086      0.283      -0.011       0.003
+Cliff_label                  9.892e-15   8.49e-15      1.165      0.250   -7.18e-15     2.7e-14
+Coast_label                     0.0352      0.034      1.046      0.301      -0.032       0.103
+Concrete_label                 -0.0408      0.037     -1.092      0.281      -0.116       0.034
+Condominium_label               0.0200      0.018      1.113      0.271      -0.016       0.056
+Cottage_label                 8.34e-15   6.13e-15      1.360      0.180      -4e-15    2.07e-14
+Earth_label                    -0.0459      0.040     -1.140      0.260      -0.127       0.035
+Ecoregion_label             -5.516e-15   4.18e-15     -1.321      0.193   -1.39e-14    2.89e-15
+Erosion_label                  -0.0995      0.117     -0.850      0.400      -0.335       0.136
+Estate_label                   -0.0116      0.012     -0.982      0.331      -0.035       0.012
+Forest_label                   -0.0029      0.007     -0.425      0.672      -0.017       0.011
+Geological_phenomenon_label     0.0152      0.011      1.385      0.173      -0.007       0.037
+Geology_label                   0.0232      0.024      0.983      0.331      -0.024       0.071
+Granite_label                   0.0134      0.070      0.192      0.849      -0.127       0.153
+Grass_label                    -0.0030      0.008     -0.389      0.699      -0.018       0.012
+House_label                     0.0014      0.006      0.251      0.803      -0.010       0.013
+Human_settlement_label         -0.0302      0.031     -0.987      0.329      -0.092       0.031
+Infrastructure_label            0.0058      0.007      0.876      0.385      -0.007       0.019
+Intersection_label             -0.0770      0.265     -0.291      0.772      -0.609       0.455
+Lake_label                  -1.713e-15   1.27e-15     -1.346      0.185   -4.27e-15    8.47e-16
+Land_lot_label                  0.0007      0.003      0.221      0.826      -0.006       0.007
+Landmark_label               7.968e-16   6.97e-16      1.144      0.259   -6.05e-16     2.2e-15
+Landscape_label                -0.0002      0.003     -0.078      0.938      -0.005       0.005
+Leaf_label                     -0.0013      0.008     -0.165      0.869      -0.017       0.014
+Line_label                      0.0378      0.067      0.566      0.574      -0.097       0.172
+Lumber_label                -1.813e-15   1.35e-15     -1.340      0.187   -4.53e-15    9.08e-16
+Mansion_label                9.312e-16    7.1e-16      1.311      0.196   -4.97e-16    2.36e-15
+Map_label                       0.0006      0.003      0.166      0.869      -0.006       0.008
+Marina_label                    0.0192      0.137      0.141      0.889      -0.255       0.294
+Material_property_label      2.114e-16   2.33e-16      0.907      0.369   -2.58e-16    6.81e-16
+Metropolis_label                0.0296      0.022      1.329      0.190      -0.015       0.075
+Metropolitan_area_label        -0.0203      0.038     -0.526      0.601      -0.098       0.057
+National_park_label             0.0538      0.055      0.976      0.334      -0.057       0.165
+Natural_environment_label       0.0137      0.014      0.991      0.327      -0.014       0.041
+Neighbourhood_label             0.0293      0.041      0.711      0.480      -0.053       0.112
+Parking_label               -1.417e-15   1.04e-15     -1.356      0.182   -3.52e-15    6.85e-16
+Plant_label                     0.0032      0.003      1.014      0.316      -0.003       0.009
+Property_label                  0.0047      0.005      0.944      0.350      -0.005       0.015
+Rainforest_label                0.0268      0.036      0.740      0.463      -0.046       0.100
+Real_estate_label              -0.0097      0.017     -0.573      0.569      -0.044       0.024
+Rectangle_label                 0.0018      0.006      0.313      0.755      -0.010       0.014
+Residential_area_label         -0.0013      0.006     -0.218      0.829      -0.013       0.011
+River_label                          0          0        nan        nan           0           0
+Road_label                     -0.0142      0.007     -1.912      0.062      -0.029       0.001
+Rock_label                     -0.0052      0.020     -0.255      0.800      -0.046       0.036
+Roof_label                           0          0        nan        nan           0           0
+Skyscraper_label                     0          0        nan        nan           0           0
+Soil_label                     -0.0006      0.004     -0.137      0.892      -0.009       0.008
+Stadium_label                  -0.0061      0.027     -0.224      0.824      -0.061       0.049
+State_park_label                     0          0        nan        nan           0           0
+Street_label                         0          0        nan        nan           0           0
+Street_light_label                   0          0        nan        nan           0           0
+Suburb_label                    0.0048      0.006      0.820      0.416      -0.007       0.017
+Terrain_label                  -0.0020      0.015     -0.131      0.896      -0.033       0.029
+Tree_label                     -0.0021      0.004     -0.592      0.557      -0.009       0.005
+Urban_area_label                0.0067      0.009      0.786      0.436      -0.010       0.024
+Vegetation_label                     0          0        nan        nan           0           0
+Vehicle_label                   0.0316      0.017      1.887      0.065      -0.002       0.065
+Water_label                     0.0217      0.011      1.968      0.055      -0.000       0.044
+Water_resources_label                0          0        nan        nan           0           0
+Waterway_label                  0.7051      0.525      1.344      0.186      -0.351       1.761
+Wood_label                      0.0012      0.010      0.122      0.903      -0.018       0.021
+==============================================================================
+Omnibus:                       26.438   Durbin-Watson:                   1.847
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               48.570
+Skew:                           1.071   Prob(JB):                     2.84e-11
+Kurtosis:                       5.658   Cond. No.                     1.24e+16
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 5.38e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

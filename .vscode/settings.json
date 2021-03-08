@@ -1,3 +1,8 @@
 {
-    "python.dataScience.jupyterServerURI": "local"
+    "python.dataScience.jupyterServerURI": "local",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#34038B",
+        "titleBar.activeBackground": "#4905C2",
+        "titleBar.activeForeground": "#FDFDFF"
+    }
 }
